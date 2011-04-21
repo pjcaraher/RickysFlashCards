@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* RickysFlashCardsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RickysFlashCardsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		2E0E1C5612A07FC300EE8EE2 /* VoiceEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E1C5512A07FC300EE8EE2 /* VoiceEntity.m */; };
+		2E0E1F7A12A3D94F00EE8EE2 /* FlashCardLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0E1F7812A3D94F00EE8EE2 /* FlashCardLandscapeViewController.m */; };
+		2E0E1F7B12A3D94F00EE8EE2 /* FlashCardLandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E1F7912A3D94F00EE8EE2 /* FlashCardLandscapeViewController.xib */; };
+		2E0E203C12A3EE8000EE8EE2 /* Mark.0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201612A3EE7F00EE8EE2 /* Mark.0.caf */; };
+		2E0E203D12A3EE8000EE8EE2 /* Mark.1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201712A3EE7F00EE8EE2 /* Mark.1.caf */; };
+		2E0E203E12A3EE8000EE8EE2 /* Mark.2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201812A3EE7F00EE8EE2 /* Mark.2.caf */; };
+		2E0E203F12A3EE8000EE8EE2 /* Mark.3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201912A3EE7F00EE8EE2 /* Mark.3.caf */; };
+		2E0E204012A3EE8000EE8EE2 /* Mark.4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201A12A3EE7F00EE8EE2 /* Mark.4.caf */; };
+		2E0E204112A3EE8000EE8EE2 /* Mark.5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201B12A3EE7F00EE8EE2 /* Mark.5.caf */; };
+		2E0E204212A3EE8000EE8EE2 /* Mark.6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201C12A3EE7F00EE8EE2 /* Mark.6.caf */; };
+		2E0E204312A3EE8000EE8EE2 /* Mark.7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201D12A3EE7F00EE8EE2 /* Mark.7.caf */; };
+		2E0E204412A3EE8000EE8EE2 /* Mark.8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201E12A3EE7F00EE8EE2 /* Mark.8.caf */; };
+		2E0E204512A3EE8000EE8EE2 /* Mark.9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E201F12A3EE7F00EE8EE2 /* Mark.9.caf */; };
+		2E0E204612A3EE8000EE8EE2 /* Mark.10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202012A3EE7F00EE8EE2 /* Mark.10.caf */; };
+		2E0E204712A3EE8000EE8EE2 /* Mark.11.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202112A3EE7F00EE8EE2 /* Mark.11.caf */; };
+		2E0E204812A3EE8000EE8EE2 /* Mark.12.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202212A3EE7F00EE8EE2 /* Mark.12.caf */; };
+		2E0E204912A3EE8000EE8EE2 /* Mark.13.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202312A3EE7F00EE8EE2 /* Mark.13.caf */; };
+		2E0E204A12A3EE8000EE8EE2 /* Mark.14.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202412A3EE7F00EE8EE2 /* Mark.14.caf */; };
+		2E0E204B12A3EE8000EE8EE2 /* Mark.15.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202512A3EE7F00EE8EE2 /* Mark.15.caf */; };
+		2E0E204C12A3EE8000EE8EE2 /* Mark.16.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202612A3EE7F00EE8EE2 /* Mark.16.caf */; };
+		2E0E204D12A3EE8000EE8EE2 /* Mark.17.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202712A3EE7F00EE8EE2 /* Mark.17.caf */; };
+		2E0E204E12A3EE8000EE8EE2 /* Mark.18.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202812A3EE7F00EE8EE2 /* Mark.18.caf */; };
+		2E0E204F12A3EE8000EE8EE2 /* Mark.19.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202912A3EE7F00EE8EE2 /* Mark.19.caf */; };
+		2E0E205012A3EE8000EE8EE2 /* Mark.20.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202A12A3EE7F00EE8EE2 /* Mark.20.caf */; };
+		2E0E205112A3EE8000EE8EE2 /* Mark.30.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202B12A3EE7F00EE8EE2 /* Mark.30.caf */; };
+		2E0E205212A3EE8000EE8EE2 /* Mark.40.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202C12A3EE7F00EE8EE2 /* Mark.40.caf */; };
+		2E0E205312A3EE8000EE8EE2 /* Mark.50.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202D12A3EE7F00EE8EE2 /* Mark.50.caf */; };
+		2E0E205412A3EE8000EE8EE2 /* Mark.60.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202E12A3EE7F00EE8EE2 /* Mark.60.caf */; };
+		2E0E205512A3EE8000EE8EE2 /* Mark.70.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E202F12A3EE7F00EE8EE2 /* Mark.70.caf */; };
+		2E0E205612A3EE8000EE8EE2 /* Mark.80.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203012A3EE7F00EE8EE2 /* Mark.80.caf */; };
+		2E0E205712A3EE8000EE8EE2 /* Mark.90.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203112A3EE7F00EE8EE2 /* Mark.90.caf */; };
+		2E0E205812A3EE8000EE8EE2 /* Mark.And.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203212A3EE7F00EE8EE2 /* Mark.And.caf */; };
+		2E0E205912A3EE8000EE8EE2 /* Mark.DividedBy.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203312A3EE7F00EE8EE2 /* Mark.DividedBy.caf */; };
+		2E0E205A12A3EE8000EE8EE2 /* Mark.Equals.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203412A3EE8000EE8EE2 /* Mark.Equals.caf */; };
+		2E0E205B12A3EE8000EE8EE2 /* Mark.Hundred.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203512A3EE8000EE8EE2 /* Mark.Hundred.caf */; };
+		2E0E205C12A3EE8000EE8EE2 /* Mark.Minus.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203612A3EE8000EE8EE2 /* Mark.Minus.caf */; };
+		2E0E205D12A3EE8000EE8EE2 /* Mark.Plus.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203712A3EE8000EE8EE2 /* Mark.Plus.caf */; };
+		2E0E205E12A3EE8000EE8EE2 /* Mark.Times.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203812A3EE8000EE8EE2 /* Mark.Times.caf */; };
+		2E0E205F12A3EE8000EE8EE2 /* Ricky.0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203912A3EE8000EE8EE2 /* Ricky.0.caf */; };
+		2E0E206012A3EE8000EE8EE2 /* Ricky.1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203A12A3EE8000EE8EE2 /* Ricky.1.caf */; };
+		2E0E206112A3EE8000EE8EE2 /* Ricky.2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E203B12A3EE8000EE8EE2 /* Ricky.2.caf */; };
+		2E0E208212A3EEA400EE8EE2 /* Ricky.3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206212A3EEA400EE8EE2 /* Ricky.3.caf */; };
+		2E0E208312A3EEA400EE8EE2 /* Ricky.4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206312A3EEA400EE8EE2 /* Ricky.4.caf */; };
+		2E0E208412A3EEA400EE8EE2 /* Ricky.5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206412A3EEA400EE8EE2 /* Ricky.5.caf */; };
+		2E0E208512A3EEA400EE8EE2 /* Ricky.6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206512A3EEA400EE8EE2 /* Ricky.6.caf */; };
+		2E0E208612A3EEA400EE8EE2 /* Ricky.7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206612A3EEA400EE8EE2 /* Ricky.7.caf */; };
+		2E0E208712A3EEA400EE8EE2 /* Ricky.8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206712A3EEA400EE8EE2 /* Ricky.8.caf */; };
+		2E0E208812A3EEA400EE8EE2 /* Ricky.9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206812A3EEA400EE8EE2 /* Ricky.9.caf */; };
+		2E0E208912A3EEA400EE8EE2 /* Ricky.10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206912A3EEA400EE8EE2 /* Ricky.10.caf */; };
+		2E0E208A12A3EEA400EE8EE2 /* Ricky.11.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206A12A3EEA400EE8EE2 /* Ricky.11.caf */; };
+		2E0E208B12A3EEA400EE8EE2 /* Ricky.12.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206B12A3EEA400EE8EE2 /* Ricky.12.caf */; };
+		2E0E208C12A3EEA400EE8EE2 /* Ricky.13.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206C12A3EEA400EE8EE2 /* Ricky.13.caf */; };
+		2E0E208D12A3EEA400EE8EE2 /* Ricky.14.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206D12A3EEA400EE8EE2 /* Ricky.14.caf */; };
+		2E0E208E12A3EEA400EE8EE2 /* Ricky.15.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206E12A3EEA400EE8EE2 /* Ricky.15.caf */; };
+		2E0E208F12A3EEA400EE8EE2 /* Ricky.16.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E206F12A3EEA400EE8EE2 /* Ricky.16.caf */; };
+		2E0E209012A3EEA400EE8EE2 /* Ricky.17.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207012A3EEA400EE8EE2 /* Ricky.17.caf */; };
+		2E0E209112A3EEA400EE8EE2 /* Ricky.18.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207112A3EEA400EE8EE2 /* Ricky.18.caf */; };
+		2E0E209212A3EEA400EE8EE2 /* Ricky.19.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207212A3EEA400EE8EE2 /* Ricky.19.caf */; };
+		2E0E209312A3EEA400EE8EE2 /* Ricky.20.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207312A3EEA400EE8EE2 /* Ricky.20.caf */; };
+		2E0E209412A3EEA400EE8EE2 /* Ricky.30.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207412A3EEA400EE8EE2 /* Ricky.30.caf */; };
+		2E0E209512A3EEA400EE8EE2 /* Ricky.40.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207512A3EEA400EE8EE2 /* Ricky.40.caf */; };
+		2E0E209612A3EEA400EE8EE2 /* Ricky.50.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207612A3EEA400EE8EE2 /* Ricky.50.caf */; };
+		2E0E209712A3EEA400EE8EE2 /* Ricky.60.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207712A3EEA400EE8EE2 /* Ricky.60.caf */; };
+		2E0E209812A3EEA400EE8EE2 /* Ricky.70.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207812A3EEA400EE8EE2 /* Ricky.70.caf */; };
+		2E0E209912A3EEA400EE8EE2 /* Ricky.80.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207912A3EEA400EE8EE2 /* Ricky.80.caf */; };
+		2E0E209A12A3EEA400EE8EE2 /* Ricky.90.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207A12A3EEA400EE8EE2 /* Ricky.90.caf */; };
+		2E0E209B12A3EEA400EE8EE2 /* Ricky.And.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207B12A3EEA400EE8EE2 /* Ricky.And.caf */; };
+		2E0E209C12A3EEA400EE8EE2 /* Ricky.DividedBy.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207C12A3EEA400EE8EE2 /* Ricky.DividedBy.caf */; };
+		2E0E209D12A3EEA400EE8EE2 /* Ricky.Equals.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207D12A3EEA400EE8EE2 /* Ricky.Equals.caf */; };
+		2E0E209E12A3EEA400EE8EE2 /* Ricky.Hundred.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207E12A3EEA400EE8EE2 /* Ricky.Hundred.caf */; };
+		2E0E209F12A3EEA400EE8EE2 /* Ricky.Minus.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E207F12A3EEA400EE8EE2 /* Ricky.Minus.caf */; };
+		2E0E20A012A3EEA400EE8EE2 /* Ricky.Plus.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E208012A3EEA400EE8EE2 /* Ricky.Plus.caf */; };
+		2E0E20A112A3EEA400EE8EE2 /* Ricky.Times.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E208112A3EEA400EE8EE2 /* Ricky.Times.caf */; };
+		2E0E210212A4A87300EE8EE2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E20FD12A4A87300EE8EE2 /* Icon-72.png */; };
+		2E0E210312A4A87300EE8EE2 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E20FE12A4A87300EE8EE2 /* Icon-Small.png */; };
+		2E0E210412A4A87300EE8EE2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E20FF12A4A87300EE8EE2 /* Icon.png */; };
+		2E0E210512A4A87300EE8EE2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E210012A4A87300EE8EE2 /* Icon@2x.png */; };
+		2E0E210612A4A87300EE8EE2 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E210112A4A87300EE8EE2 /* iTunesArtwork */; };
+		2E0E210812A4A9D000EE8EE2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E0E210712A4A9D000EE8EE2 /* Default.png */; };
+		2E87CCA3129C88C8006E081A /* database.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2E87CCA2129C88C8006E081A /* database.sqlite */; };
+		2E87CF30129DED30006E081A /* RFCVoiceListUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E87CF2F129DED30006E081A /* RFCVoiceListUITableViewCell.m */; };
+		2E87CFA7129E028C006E081A /* Chalkboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E87CFA6129E028C006E081A /* Chalkboard.png */; };
+		2E87D049129ED0F2006E081A /* RickyAndMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E87D048129ED0F2006E081A /* RickyAndMark.png */; };
+		2E87D054129ED3C2006E081A /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E87D053129ED3C2006E081A /* note.png */; };
+		2E87D060129ED639006E081A /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E87D05F129ED639006E081A /* redo.png */; };
+		2E87D071129ED73A006E081A /* whitePlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E87D070129ED73A006E081A /* whitePlayButton.png */; };
+		2E98760E1291F59A00A5745B /* ConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E98760C1291F59A00A5745B /* ConfigurationController.m */; };
+		2E98760F1291F59A00A5745B /* ConfigurationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E98760D1291F59A00A5745B /* ConfigurationController.xib */; };
+		2EDAEA4512821A1F0031614C /* FlashCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAEA4312821A1F0031614C /* FlashCardViewController.m */; };
+		2EDAEA4612821A1F0031614C /* FlashCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAEA4412821A1F0031614C /* FlashCardViewController.xib */; };
+		2EDAEB131282DF1B0031614C /* noteCancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAEB121282DF1B0031614C /* noteCancel.png */; };
+		2EDAECA712842BBB0031614C /* FlashCardSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAECA512842BBB0031614C /* FlashCardSettingsViewController.m */; };
+		2EDAECA812842BBB0031614C /* FlashCardSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAECA612842BBB0031614C /* FlashCardSettingsViewController.xib */; };
+		2EDAED381284B5060031614C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAED361284B5060031614C /* AboutViewController.m */; };
+		2EDAED391284B5060031614C /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAED371284B5060031614C /* AboutViewController.xib */; };
+		2EDAED581284BC530031614C /* VoicesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAED561284BC530031614C /* VoicesListController.m */; };
+		2EDAED591284BC530031614C /* VoicesListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAED571284BC530031614C /* VoicesListController.xib */; };
+		2EDAED8F12882A680031614C /* MATCDatabaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAED8E12882A680031614C /* MATCDatabaseController.m */; };
+		2EDAED9112882D3E0031614C /* RickysFlashCards.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAED9012882D3E0031614C /* RickysFlashCards.xcdatamodel */; };
+		2EDAEE2912883F780031614C /* VoiceEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAEE2712883F780031614C /* VoiceEditController.m */; };
+		2EDAEE2A12883F780031614C /* VoiceEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAEE2812883F780031614C /* VoiceEditController.xib */; };
+		2EDAF2DC128B5D410031614C /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAF2DB128B5D410031614C /* record.png */; };
+		2EDAF3B2128C46790031614C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDAF3B1128C46790031614C /* CoreAudio.framework */; };
+		2EDAF3BA128C46910031614C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EDAF3B9128C46910031614C /* AVFoundation.framework */; };
+		2EDAF4FF128C8FEE0031614C /* RFCUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDAF4FE128C8FEE0031614C /* RFCUITableViewCell.m */; };
+		2EDAF599128CA9280031614C /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EDAF598128CA9280031614C /* playButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* RickysFlashCardsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RickysFlashCardsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* RickysFlashCardsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RickysFlashCardsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* RickysFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickysFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E0E1C5412A07FC300EE8EE2 /* VoiceEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceEntity.h; sourceTree = "<group>"; };
+		2E0E1C5512A07FC300EE8EE2 /* VoiceEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceEntity.m; sourceTree = "<group>"; };
+		2E0E1F7712A3D94F00EE8EE2 /* FlashCardLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardLandscapeViewController.h; sourceTree = "<group>"; };
+		2E0E1F7812A3D94F00EE8EE2 /* FlashCardLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardLandscapeViewController.m; sourceTree = "<group>"; };
+		2E0E1F7912A3D94F00EE8EE2 /* FlashCardLandscapeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FlashCardLandscapeViewController.xib; path = Classes/FlashCardLandscapeViewController.xib; sourceTree = "<group>"; };
+		2E0E201612A3EE7F00EE8EE2 /* Mark.0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.0.caf; sourceTree = "<group>"; };
+		2E0E201712A3EE7F00EE8EE2 /* Mark.1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.1.caf; sourceTree = "<group>"; };
+		2E0E201812A3EE7F00EE8EE2 /* Mark.2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.2.caf; sourceTree = "<group>"; };
+		2E0E201912A3EE7F00EE8EE2 /* Mark.3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.3.caf; sourceTree = "<group>"; };
+		2E0E201A12A3EE7F00EE8EE2 /* Mark.4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.4.caf; sourceTree = "<group>"; };
+		2E0E201B12A3EE7F00EE8EE2 /* Mark.5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.5.caf; sourceTree = "<group>"; };
+		2E0E201C12A3EE7F00EE8EE2 /* Mark.6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.6.caf; sourceTree = "<group>"; };
+		2E0E201D12A3EE7F00EE8EE2 /* Mark.7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.7.caf; sourceTree = "<group>"; };
+		2E0E201E12A3EE7F00EE8EE2 /* Mark.8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.8.caf; sourceTree = "<group>"; };
+		2E0E201F12A3EE7F00EE8EE2 /* Mark.9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.9.caf; sourceTree = "<group>"; };
+		2E0E202012A3EE7F00EE8EE2 /* Mark.10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.10.caf; sourceTree = "<group>"; };
+		2E0E202112A3EE7F00EE8EE2 /* Mark.11.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.11.caf; sourceTree = "<group>"; };
+		2E0E202212A3EE7F00EE8EE2 /* Mark.12.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.12.caf; sourceTree = "<group>"; };
+		2E0E202312A3EE7F00EE8EE2 /* Mark.13.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.13.caf; sourceTree = "<group>"; };
+		2E0E202412A3EE7F00EE8EE2 /* Mark.14.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.14.caf; sourceTree = "<group>"; };
+		2E0E202512A3EE7F00EE8EE2 /* Mark.15.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.15.caf; sourceTree = "<group>"; };
+		2E0E202612A3EE7F00EE8EE2 /* Mark.16.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.16.caf; sourceTree = "<group>"; };
+		2E0E202712A3EE7F00EE8EE2 /* Mark.17.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.17.caf; sourceTree = "<group>"; };
+		2E0E202812A3EE7F00EE8EE2 /* Mark.18.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.18.caf; sourceTree = "<group>"; };
+		2E0E202912A3EE7F00EE8EE2 /* Mark.19.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.19.caf; sourceTree = "<group>"; };
+		2E0E202A12A3EE7F00EE8EE2 /* Mark.20.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.20.caf; sourceTree = "<group>"; };
+		2E0E202B12A3EE7F00EE8EE2 /* Mark.30.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.30.caf; sourceTree = "<group>"; };
+		2E0E202C12A3EE7F00EE8EE2 /* Mark.40.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.40.caf; sourceTree = "<group>"; };
+		2E0E202D12A3EE7F00EE8EE2 /* Mark.50.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.50.caf; sourceTree = "<group>"; };
+		2E0E202E12A3EE7F00EE8EE2 /* Mark.60.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.60.caf; sourceTree = "<group>"; };
+		2E0E202F12A3EE7F00EE8EE2 /* Mark.70.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.70.caf; sourceTree = "<group>"; };
+		2E0E203012A3EE7F00EE8EE2 /* Mark.80.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.80.caf; sourceTree = "<group>"; };
+		2E0E203112A3EE7F00EE8EE2 /* Mark.90.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.90.caf; sourceTree = "<group>"; };
+		2E0E203212A3EE7F00EE8EE2 /* Mark.And.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.And.caf; sourceTree = "<group>"; };
+		2E0E203312A3EE7F00EE8EE2 /* Mark.DividedBy.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.DividedBy.caf; sourceTree = "<group>"; };
+		2E0E203412A3EE8000EE8EE2 /* Mark.Equals.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.Equals.caf; sourceTree = "<group>"; };
+		2E0E203512A3EE8000EE8EE2 /* Mark.Hundred.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.Hundred.caf; sourceTree = "<group>"; };
+		2E0E203612A3EE8000EE8EE2 /* Mark.Minus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.Minus.caf; sourceTree = "<group>"; };
+		2E0E203712A3EE8000EE8EE2 /* Mark.Plus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.Plus.caf; sourceTree = "<group>"; };
+		2E0E203812A3EE8000EE8EE2 /* Mark.Times.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mark.Times.caf; sourceTree = "<group>"; };
+		2E0E203912A3EE8000EE8EE2 /* Ricky.0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.0.caf; sourceTree = "<group>"; };
+		2E0E203A12A3EE8000EE8EE2 /* Ricky.1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.1.caf; sourceTree = "<group>"; };
+		2E0E203B12A3EE8000EE8EE2 /* Ricky.2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.2.caf; sourceTree = "<group>"; };
+		2E0E206212A3EEA400EE8EE2 /* Ricky.3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.3.caf; sourceTree = "<group>"; };
+		2E0E206312A3EEA400EE8EE2 /* Ricky.4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.4.caf; sourceTree = "<group>"; };
+		2E0E206412A3EEA400EE8EE2 /* Ricky.5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.5.caf; sourceTree = "<group>"; };
+		2E0E206512A3EEA400EE8EE2 /* Ricky.6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.6.caf; sourceTree = "<group>"; };
+		2E0E206612A3EEA400EE8EE2 /* Ricky.7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.7.caf; sourceTree = "<group>"; };
+		2E0E206712A3EEA400EE8EE2 /* Ricky.8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.8.caf; sourceTree = "<group>"; };
+		2E0E206812A3EEA400EE8EE2 /* Ricky.9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.9.caf; sourceTree = "<group>"; };
+		2E0E206912A3EEA400EE8EE2 /* Ricky.10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.10.caf; sourceTree = "<group>"; };
+		2E0E206A12A3EEA400EE8EE2 /* Ricky.11.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.11.caf; sourceTree = "<group>"; };
+		2E0E206B12A3EEA400EE8EE2 /* Ricky.12.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.12.caf; sourceTree = "<group>"; };
+		2E0E206C12A3EEA400EE8EE2 /* Ricky.13.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.13.caf; sourceTree = "<group>"; };
+		2E0E206D12A3EEA400EE8EE2 /* Ricky.14.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.14.caf; sourceTree = "<group>"; };
+		2E0E206E12A3EEA400EE8EE2 /* Ricky.15.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.15.caf; sourceTree = "<group>"; };
+		2E0E206F12A3EEA400EE8EE2 /* Ricky.16.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.16.caf; sourceTree = "<group>"; };
+		2E0E207012A3EEA400EE8EE2 /* Ricky.17.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.17.caf; sourceTree = "<group>"; };
+		2E0E207112A3EEA400EE8EE2 /* Ricky.18.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.18.caf; sourceTree = "<group>"; };
+		2E0E207212A3EEA400EE8EE2 /* Ricky.19.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.19.caf; sourceTree = "<group>"; };
+		2E0E207312A3EEA400EE8EE2 /* Ricky.20.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.20.caf; sourceTree = "<group>"; };
+		2E0E207412A3EEA400EE8EE2 /* Ricky.30.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.30.caf; sourceTree = "<group>"; };
+		2E0E207512A3EEA400EE8EE2 /* Ricky.40.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.40.caf; sourceTree = "<group>"; };
+		2E0E207612A3EEA400EE8EE2 /* Ricky.50.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.50.caf; sourceTree = "<group>"; };
+		2E0E207712A3EEA400EE8EE2 /* Ricky.60.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.60.caf; sourceTree = "<group>"; };
+		2E0E207812A3EEA400EE8EE2 /* Ricky.70.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.70.caf; sourceTree = "<group>"; };
+		2E0E207912A3EEA400EE8EE2 /* Ricky.80.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.80.caf; sourceTree = "<group>"; };
+		2E0E207A12A3EEA400EE8EE2 /* Ricky.90.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.90.caf; sourceTree = "<group>"; };
+		2E0E207B12A3EEA400EE8EE2 /* Ricky.And.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.And.caf; sourceTree = "<group>"; };
+		2E0E207C12A3EEA400EE8EE2 /* Ricky.DividedBy.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.DividedBy.caf; sourceTree = "<group>"; };
+		2E0E207D12A3EEA400EE8EE2 /* Ricky.Equals.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.Equals.caf; sourceTree = "<group>"; };
+		2E0E207E12A3EEA400EE8EE2 /* Ricky.Hundred.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.Hundred.caf; sourceTree = "<group>"; };
+		2E0E207F12A3EEA400EE8EE2 /* Ricky.Minus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.Minus.caf; sourceTree = "<group>"; };
+		2E0E208012A3EEA400EE8EE2 /* Ricky.Plus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.Plus.caf; sourceTree = "<group>"; };
+		2E0E208112A3EEA400EE8EE2 /* Ricky.Times.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ricky.Times.caf; sourceTree = "<group>"; };
+		2E0E20FD12A4A87300EE8EE2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		2E0E20FE12A4A87300EE8EE2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		2E0E20FF12A4A87300EE8EE2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2E0E210012A4A87300EE8EE2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2E0E210112A4A87300EE8EE2 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		2E0E210712A4A9D000EE8EE2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2E87CCA2129C88C8006E081A /* database.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = database.sqlite; sourceTree = "<group>"; };
+		2E87CF2E129DED30006E081A /* RFCVoiceListUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFCVoiceListUITableViewCell.h; sourceTree = "<group>"; };
+		2E87CF2F129DED30006E081A /* RFCVoiceListUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFCVoiceListUITableViewCell.m; sourceTree = "<group>"; };
+		2E87CFA6129E028C006E081A /* Chalkboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chalkboard.png; sourceTree = "<group>"; };
+		2E87D048129ED0F2006E081A /* RickyAndMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RickyAndMark.png; sourceTree = "<group>"; };
+		2E87D053129ED3C2006E081A /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note.png; sourceTree = "<group>"; };
+		2E87D05F129ED639006E081A /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
+		2E87D070129ED73A006E081A /* whitePlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitePlayButton.png; sourceTree = "<group>"; };
+		2E98760B1291F59A00A5745B /* ConfigurationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationController.h; sourceTree = "<group>"; };
+		2E98760C1291F59A00A5745B /* ConfigurationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationController.m; sourceTree = "<group>"; };
+		2E98760D1291F59A00A5745B /* ConfigurationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConfigurationController.xib; path = Classes/ConfigurationController.xib; sourceTree = "<group>"; };
+		2EDAEA4212821A1F0031614C /* FlashCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardViewController.h; sourceTree = "<group>"; };
+		2EDAEA4312821A1F0031614C /* FlashCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardViewController.m; sourceTree = "<group>"; };
+		2EDAEA4412821A1F0031614C /* FlashCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FlashCardViewController.xib; path = Classes/FlashCardViewController.xib; sourceTree = "<group>"; };
+		2EDAEB121282DF1B0031614C /* noteCancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noteCancel.png; sourceTree = "<group>"; };
+		2EDAECA412842BBB0031614C /* FlashCardSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardSettingsViewController.h; sourceTree = "<group>"; };
+		2EDAECA512842BBB0031614C /* FlashCardSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardSettingsViewController.m; sourceTree = "<group>"; };
+		2EDAECA612842BBB0031614C /* FlashCardSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FlashCardSettingsViewController.xib; path = Classes/FlashCardSettingsViewController.xib; sourceTree = "<group>"; };
+		2EDAED351284B5060031614C /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		2EDAED361284B5060031614C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		2EDAED371284B5060031614C /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		2EDAED551284BC530031614C /* VoicesListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoicesListController.h; path = ../VoicesListController.h; sourceTree = "<group>"; };
+		2EDAED561284BC530031614C /* VoicesListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VoicesListController.m; path = ../VoicesListController.m; sourceTree = "<group>"; };
+		2EDAED571284BC530031614C /* VoicesListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VoicesListController.xib; sourceTree = "<group>"; };
+		2EDAED8D12882A680031614C /* MATCDatabaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MATCDatabaseController.h; sourceTree = "<group>"; };
+		2EDAED8E12882A680031614C /* MATCDatabaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MATCDatabaseController.m; sourceTree = "<group>"; };
+		2EDAED9012882D3E0031614C /* RickysFlashCards.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = RickysFlashCards.xcdatamodel; sourceTree = "<group>"; };
+		2EDAEE2612883F780031614C /* VoiceEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceEditController.h; sourceTree = "<group>"; };
+		2EDAEE2712883F780031614C /* VoiceEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceEditController.m; sourceTree = "<group>"; };
+		2EDAEE2812883F780031614C /* VoiceEditController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = VoiceEditController.xib; path = Classes/VoiceEditController.xib; sourceTree = "<group>"; };
+		2EDAF2DB128B5D410031614C /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		2EDAF3B1128C46790031614C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2EDAF3B9128C46910031614C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2EDAF4FD128C8FEE0031614C /* RFCUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFCUITableViewCell.h; sourceTree = "<group>"; };
+		2EDAF4FE128C8FEE0031614C /* RFCUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFCUITableViewCell.m; sourceTree = "<group>"; };
+		2EDAF598128CA9280031614C /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RickysFlashCards_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RickysFlashCards_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RickysFlashCards-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RickysFlashCards-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				2EDAF3B2128C46790031614C /* CoreAudio.framework in Frameworks */,
+				2EDAF3BA128C46910031614C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EDAED8D12882A680031614C /* MATCDatabaseController.h */,
+				2EDAED8E12882A680031614C /* MATCDatabaseController.m */,
+				2EDAED351284B5060031614C /* AboutViewController.h */,
+				2EDAED361284B5060031614C /* AboutViewController.m */,
+				1D3623240D0F684500981E51 /* RickysFlashCardsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* RickysFlashCardsAppDelegate.m */,
+				2EDAEA4212821A1F0031614C /* FlashCardViewController.h */,
+				2EDAEA4312821A1F0031614C /* FlashCardViewController.m */,
+				2EDAECA412842BBB0031614C /* FlashCardSettingsViewController.h */,
+				2EDAECA512842BBB0031614C /* FlashCardSettingsViewController.m */,
+				2E0E1F7712A3D94F00EE8EE2 /* FlashCardLandscapeViewController.h */,
+				2E0E1F7812A3D94F00EE8EE2 /* FlashCardLandscapeViewController.m */,
+				2EDAED551284BC530031614C /* VoicesListController.h */,
+				2EDAED561284BC530031614C /* VoicesListController.m */,
+				2EDAEE2612883F780031614C /* VoiceEditController.h */,
+				2EDAEE2712883F780031614C /* VoiceEditController.m */,
+				2E98760B1291F59A00A5745B /* ConfigurationController.h */,
+				2E98760C1291F59A00A5745B /* ConfigurationController.m */,
+				2EDAF4FD128C8FEE0031614C /* RFCUITableViewCell.h */,
+				2EDAF4FE128C8FEE0031614C /* RFCUITableViewCell.m */,
+				2E87CF2E129DED30006E081A /* RFCVoiceListUITableViewCell.h */,
+				2E87CF2F129DED30006E081A /* RFCVoiceListUITableViewCell.m */,
+				2E0E1C5412A07FC300EE8EE2 /* VoiceEntity.h */,
+				2E0E1C5512A07FC300EE8EE2 /* VoiceEntity.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RickysFlashCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E201512A3EE2900EE8EE2 /* Voices */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				2E87D040129ECEDF006E081A /* images */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RickysFlashCards_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E210712A4A9D000EE8EE2 /* Default.png */,
+				2E0E20FD12A4A87300EE8EE2 /* Icon-72.png */,
+				2E0E20FE12A4A87300EE8EE2 /* Icon-Small.png */,
+				2E0E20FF12A4A87300EE8EE2 /* Icon.png */,
+				2E0E210012A4A87300EE8EE2 /* Icon@2x.png */,
+				2E0E210112A4A87300EE8EE2 /* iTunesArtwork */,
+				2E87CCA2129C88C8006E081A /* database.sqlite */,
+				2EDAED9012882D3E0031614C /* RickysFlashCards.xcdatamodel */,
+				2EDAED371284B5060031614C /* AboutViewController.xib */,
+				2E98760D1291F59A00A5745B /* ConfigurationController.xib */,
+				2EDAECA612842BBB0031614C /* FlashCardSettingsViewController.xib */,
+				2E0E1F7912A3D94F00EE8EE2 /* FlashCardLandscapeViewController.xib */,
+				2EDAEE2812883F780031614C /* VoiceEditController.xib */,
+				2EDAED571284BC530031614C /* VoicesListController.xib */,
+				2EDAEA4412821A1F0031614C /* FlashCardViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* RickysFlashCards-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				2EDAF3B1128C46790031614C /* CoreAudio.framework */,
+				2EDAF3B9128C46910031614C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E0E201512A3EE2900EE8EE2 /* Voices */ = {
+			isa = PBXGroup;
+			children = (
+				2E0E206212A3EEA400EE8EE2 /* Ricky.3.caf */,
+				2E0E206312A3EEA400EE8EE2 /* Ricky.4.caf */,
+				2E0E206412A3EEA400EE8EE2 /* Ricky.5.caf */,
+				2E0E206512A3EEA400EE8EE2 /* Ricky.6.caf */,
+				2E0E206612A3EEA400EE8EE2 /* Ricky.7.caf */,
+				2E0E206712A3EEA400EE8EE2 /* Ricky.8.caf */,
+				2E0E206812A3EEA400EE8EE2 /* Ricky.9.caf */,
+				2E0E206912A3EEA400EE8EE2 /* Ricky.10.caf */,
+				2E0E206A12A3EEA400EE8EE2 /* Ricky.11.caf */,
+				2E0E206B12A3EEA400EE8EE2 /* Ricky.12.caf */,
+				2E0E206C12A3EEA400EE8EE2 /* Ricky.13.caf */,
+				2E0E206D12A3EEA400EE8EE2 /* Ricky.14.caf */,
+				2E0E206E12A3EEA400EE8EE2 /* Ricky.15.caf */,
+				2E0E206F12A3EEA400EE8EE2 /* Ricky.16.caf */,
+				2E0E207012A3EEA400EE8EE2 /* Ricky.17.caf */,
+				2E0E207112A3EEA400EE8EE2 /* Ricky.18.caf */,
+				2E0E207212A3EEA400EE8EE2 /* Ricky.19.caf */,
+				2E0E207312A3EEA400EE8EE2 /* Ricky.20.caf */,
+				2E0E207412A3EEA400EE8EE2 /* Ricky.30.caf */,
+				2E0E207512A3EEA400EE8EE2 /* Ricky.40.caf */,
+				2E0E207612A3EEA400EE8EE2 /* Ricky.50.caf */,
+				2E0E207712A3EEA400EE8EE2 /* Ricky.60.caf */,
+				2E0E207812A3EEA400EE8EE2 /* Ricky.70.caf */,
+				2E0E207912A3EEA400EE8EE2 /* Ricky.80.caf */,
+				2E0E207A12A3EEA400EE8EE2 /* Ricky.90.caf */,
+				2E0E207B12A3EEA400EE8EE2 /* Ricky.And.caf */,
+				2E0E207C12A3EEA400EE8EE2 /* Ricky.DividedBy.caf */,
+				2E0E207D12A3EEA400EE8EE2 /* Ricky.Equals.caf */,
+				2E0E207E12A3EEA400EE8EE2 /* Ricky.Hundred.caf */,
+				2E0E207F12A3EEA400EE8EE2 /* Ricky.Minus.caf */,
+				2E0E208012A3EEA400EE8EE2 /* Ricky.Plus.caf */,
+				2E0E208112A3EEA400EE8EE2 /* Ricky.Times.caf */,
+				2E0E201612A3EE7F00EE8EE2 /* Mark.0.caf */,
+				2E0E201712A3EE7F00EE8EE2 /* Mark.1.caf */,
+				2E0E201812A3EE7F00EE8EE2 /* Mark.2.caf */,
+				2E0E201912A3EE7F00EE8EE2 /* Mark.3.caf */,
+				2E0E201A12A3EE7F00EE8EE2 /* Mark.4.caf */,
+				2E0E201B12A3EE7F00EE8EE2 /* Mark.5.caf */,
+				2E0E201C12A3EE7F00EE8EE2 /* Mark.6.caf */,
+				2E0E201D12A3EE7F00EE8EE2 /* Mark.7.caf */,
+				2E0E201E12A3EE7F00EE8EE2 /* Mark.8.caf */,
+				2E0E201F12A3EE7F00EE8EE2 /* Mark.9.caf */,
+				2E0E202012A3EE7F00EE8EE2 /* Mark.10.caf */,
+				2E0E202112A3EE7F00EE8EE2 /* Mark.11.caf */,
+				2E0E202212A3EE7F00EE8EE2 /* Mark.12.caf */,
+				2E0E202312A3EE7F00EE8EE2 /* Mark.13.caf */,
+				2E0E202412A3EE7F00EE8EE2 /* Mark.14.caf */,
+				2E0E202512A3EE7F00EE8EE2 /* Mark.15.caf */,
+				2E0E202612A3EE7F00EE8EE2 /* Mark.16.caf */,
+				2E0E202712A3EE7F00EE8EE2 /* Mark.17.caf */,
+				2E0E202812A3EE7F00EE8EE2 /* Mark.18.caf */,
+				2E0E202912A3EE7F00EE8EE2 /* Mark.19.caf */,
+				2E0E202A12A3EE7F00EE8EE2 /* Mark.20.caf */,
+				2E0E202B12A3EE7F00EE8EE2 /* Mark.30.caf */,
+				2E0E202C12A3EE7F00EE8EE2 /* Mark.40.caf */,
+				2E0E202D12A3EE7F00EE8EE2 /* Mark.50.caf */,
+				2E0E202E12A3EE7F00EE8EE2 /* Mark.60.caf */,
+				2E0E202F12A3EE7F00EE8EE2 /* Mark.70.caf */,
+				2E0E203012A3EE7F00EE8EE2 /* Mark.80.caf */,
+				2E0E203112A3EE7F00EE8EE2 /* Mark.90.caf */,
+				2E0E203212A3EE7F00EE8EE2 /* Mark.And.caf */,
+				2E0E203312A3EE7F00EE8EE2 /* Mark.DividedBy.caf */,
+				2E0E203412A3EE8000EE8EE2 /* Mark.Equals.caf */,
+				2E0E203512A3EE8000EE8EE2 /* Mark.Hundred.caf */,
+				2E0E203612A3EE8000EE8EE2 /* Mark.Minus.caf */,
+				2E0E203712A3EE8000EE8EE2 /* Mark.Plus.caf */,
+				2E0E203812A3EE8000EE8EE2 /* Mark.Times.caf */,
+				2E0E203912A3EE8000EE8EE2 /* Ricky.0.caf */,
+				2E0E203A12A3EE8000EE8EE2 /* Ricky.1.caf */,
+				2E0E203B12A3EE8000EE8EE2 /* Ricky.2.caf */,
+			);
+			name = Voices;
+			sourceTree = "<group>";
+		};
+		2E87D040129ECEDF006E081A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2E87D070129ED73A006E081A /* whitePlayButton.png */,
+				2E87D05F129ED639006E081A /* redo.png */,
+				2E87D053129ED3C2006E081A /* note.png */,
+				2E87D048129ED0F2006E081A /* RickyAndMark.png */,
+				2E87CFA6129E028C006E081A /* Chalkboard.png */,
+				2EDAF598128CA9280031614C /* playButton.png */,
+				2EDAF2DB128B5D410031614C /* record.png */,
+				2EDAEB121282DF1B0031614C /* noteCancel.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RickysFlashCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RickysFlashCards" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RickysFlashCards;
+			productName = RickysFlashCards;
+			productReference = 1D6058910D05DD3D006BFB54 /* RickysFlashCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mustang Data Management";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RickysFlashCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RickysFlashCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2EDAEA4612821A1F0031614C /* FlashCardViewController.xib in Resources */,
+				2EDAEB131282DF1B0031614C /* noteCancel.png in Resources */,
+				2EDAECA812842BBB0031614C /* FlashCardSettingsViewController.xib in Resources */,
+				2EDAED391284B5060031614C /* AboutViewController.xib in Resources */,
+				2EDAED591284BC530031614C /* VoicesListController.xib in Resources */,
+				2EDAEE2A12883F780031614C /* VoiceEditController.xib in Resources */,
+				2EDAF2DC128B5D410031614C /* record.png in Resources */,
+				2EDAF599128CA9280031614C /* playButton.png in Resources */,
+				2E98760F1291F59A00A5745B /* ConfigurationController.xib in Resources */,
+				2E87CCA3129C88C8006E081A /* database.sqlite in Resources */,
+				2E87CFA7129E028C006E081A /* Chalkboard.png in Resources */,
+				2E87D049129ED0F2006E081A /* RickyAndMark.png in Resources */,
+				2E87D054129ED3C2006E081A /* note.png in Resources */,
+				2E87D060129ED639006E081A /* redo.png in Resources */,
+				2E87D071129ED73A006E081A /* whitePlayButton.png in Resources */,
+				2E0E1F7B12A3D94F00EE8EE2 /* FlashCardLandscapeViewController.xib in Resources */,
+				2E0E203C12A3EE8000EE8EE2 /* Mark.0.caf in Resources */,
+				2E0E203D12A3EE8000EE8EE2 /* Mark.1.caf in Resources */,
+				2E0E203E12A3EE8000EE8EE2 /* Mark.2.caf in Resources */,
+				2E0E203F12A3EE8000EE8EE2 /* Mark.3.caf in Resources */,
+				2E0E204012A3EE8000EE8EE2 /* Mark.4.caf in Resources */,
+				2E0E204112A3EE8000EE8EE2 /* Mark.5.caf in Resources */,
+				2E0E204212A3EE8000EE8EE2 /* Mark.6.caf in Resources */,
+				2E0E204312A3EE8000EE8EE2 /* Mark.7.caf in Resources */,
+				2E0E204412A3EE8000EE8EE2 /* Mark.8.caf in Resources */,
+				2E0E204512A3EE8000EE8EE2 /* Mark.9.caf in Resources */,
+				2E0E204612A3EE8000EE8EE2 /* Mark.10.caf in Resources */,
+				2E0E204712A3EE8000EE8EE2 /* Mark.11.caf in Resources */,
+				2E0E204812A3EE8000EE8EE2 /* Mark.12.caf in Resources */,
+				2E0E204912A3EE8000EE8EE2 /* Mark.13.caf in Resources */,
+				2E0E204A12A3EE8000EE8EE2 /* Mark.14.caf in Resources */,
+				2E0E204B12A3EE8000EE8EE2 /* Mark.15.caf in Resources */,
+				2E0E204C12A3EE8000EE8EE2 /* Mark.16.caf in Resources */,
+				2E0E204D12A3EE8000EE8EE2 /* Mark.17.caf in Resources */,
+				2E0E204E12A3EE8000EE8EE2 /* Mark.18.caf in Resources */,
+				2E0E204F12A3EE8000EE8EE2 /* Mark.19.caf in Resources */,
+				2E0E205012A3EE8000EE8EE2 /* Mark.20.caf in Resources */,
+				2E0E205112A3EE8000EE8EE2 /* Mark.30.caf in Resources */,
+				2E0E205212A3EE8000EE8EE2 /* Mark.40.caf in Resources */,
+				2E0E205312A3EE8000EE8EE2 /* Mark.50.caf in Resources */,
+				2E0E205412A3EE8000EE8EE2 /* Mark.60.caf in Resources */,
+				2E0E205512A3EE8000EE8EE2 /* Mark.70.caf in Resources */,
+				2E0E205612A3EE8000EE8EE2 /* Mark.80.caf in Resources */,
+				2E0E205712A3EE8000EE8EE2 /* Mark.90.caf in Resources */,
+				2E0E205812A3EE8000EE8EE2 /* Mark.And.caf in Resources */,
+				2E0E205912A3EE8000EE8EE2 /* Mark.DividedBy.caf in Resources */,
+				2E0E205A12A3EE8000EE8EE2 /* Mark.Equals.caf in Resources */,
+				2E0E205B12A3EE8000EE8EE2 /* Mark.Hundred.caf in Resources */,
+				2E0E205C12A3EE8000EE8EE2 /* Mark.Minus.caf in Resources */,
+				2E0E205D12A3EE8000EE8EE2 /* Mark.Plus.caf in Resources */,
+				2E0E205E12A3EE8000EE8EE2 /* Mark.Times.caf in Resources */,
+				2E0E205F12A3EE8000EE8EE2 /* Ricky.0.caf in Resources */,
+				2E0E206012A3EE8000EE8EE2 /* Ricky.1.caf in Resources */,
+				2E0E206112A3EE8000EE8EE2 /* Ricky.2.caf in Resources */,
+				2E0E208212A3EEA400EE8EE2 /* Ricky.3.caf in Resources */,
+				2E0E208312A3EEA400EE8EE2 /* Ricky.4.caf in Resources */,
+				2E0E208412A3EEA400EE8EE2 /* Ricky.5.caf in Resources */,
+				2E0E208512A3EEA400EE8EE2 /* Ricky.6.caf in Resources */,
+				2E0E208612A3EEA400EE8EE2 /* Ricky.7.caf in Resources */,
+				2E0E208712A3EEA400EE8EE2 /* Ricky.8.caf in Resources */,
+				2E0E208812A3EEA400EE8EE2 /* Ricky.9.caf in Resources */,
+				2E0E208912A3EEA400EE8EE2 /* Ricky.10.caf in Resources */,
+				2E0E208A12A3EEA400EE8EE2 /* Ricky.11.caf in Resources */,
+				2E0E208B12A3EEA400EE8EE2 /* Ricky.12.caf in Resources */,
+				2E0E208C12A3EEA400EE8EE2 /* Ricky.13.caf in Resources */,
+				2E0E208D12A3EEA400EE8EE2 /* Ricky.14.caf in Resources */,
+				2E0E208E12A3EEA400EE8EE2 /* Ricky.15.caf in Resources */,
+				2E0E208F12A3EEA400EE8EE2 /* Ricky.16.caf in Resources */,
+				2E0E209012A3EEA400EE8EE2 /* Ricky.17.caf in Resources */,
+				2E0E209112A3EEA400EE8EE2 /* Ricky.18.caf in Resources */,
+				2E0E209212A3EEA400EE8EE2 /* Ricky.19.caf in Resources */,
+				2E0E209312A3EEA400EE8EE2 /* Ricky.20.caf in Resources */,
+				2E0E209412A3EEA400EE8EE2 /* Ricky.30.caf in Resources */,
+				2E0E209512A3EEA400EE8EE2 /* Ricky.40.caf in Resources */,
+				2E0E209612A3EEA400EE8EE2 /* Ricky.50.caf in Resources */,
+				2E0E209712A3EEA400EE8EE2 /* Ricky.60.caf in Resources */,
+				2E0E209812A3EEA400EE8EE2 /* Ricky.70.caf in Resources */,
+				2E0E209912A3EEA400EE8EE2 /* Ricky.80.caf in Resources */,
+				2E0E209A12A3EEA400EE8EE2 /* Ricky.90.caf in Resources */,
+				2E0E209B12A3EEA400EE8EE2 /* Ricky.And.caf in Resources */,
+				2E0E209C12A3EEA400EE8EE2 /* Ricky.DividedBy.caf in Resources */,
+				2E0E209D12A3EEA400EE8EE2 /* Ricky.Equals.caf in Resources */,
+				2E0E209E12A3EEA400EE8EE2 /* Ricky.Hundred.caf in Resources */,
+				2E0E209F12A3EEA400EE8EE2 /* Ricky.Minus.caf in Resources */,
+				2E0E20A012A3EEA400EE8EE2 /* Ricky.Plus.caf in Resources */,
+				2E0E20A112A3EEA400EE8EE2 /* Ricky.Times.caf in Resources */,
+				2E0E210212A4A87300EE8EE2 /* Icon-72.png in Resources */,
+				2E0E210312A4A87300EE8EE2 /* Icon-Small.png in Resources */,
+				2E0E210412A4A87300EE8EE2 /* Icon.png in Resources */,
+				2E0E210512A4A87300EE8EE2 /* Icon@2x.png in Resources */,
+				2E0E210612A4A87300EE8EE2 /* iTunesArtwork in Resources */,
+				2E0E210812A4A9D000EE8EE2 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* RickysFlashCardsAppDelegate.m in Sources */,
+				2EDAEA4512821A1F0031614C /* FlashCardViewController.m in Sources */,
+				2EDAECA712842BBB0031614C /* FlashCardSettingsViewController.m in Sources */,
+				2EDAED381284B5060031614C /* AboutViewController.m in Sources */,
+				2EDAED581284BC530031614C /* VoicesListController.m in Sources */,
+				2EDAED8F12882A680031614C /* MATCDatabaseController.m in Sources */,
+				2EDAED9112882D3E0031614C /* RickysFlashCards.xcdatamodel in Sources */,
+				2EDAEE2912883F780031614C /* VoiceEditController.m in Sources */,
+				2EDAF4FF128C8FEE0031614C /* RFCUITableViewCell.m in Sources */,
+				2E98760E1291F59A00A5745B /* ConfigurationController.m in Sources */,
+				2E87CF30129DED30006E081A /* RFCVoiceListUITableViewCell.m in Sources */,
+				2E0E1C5612A07FC300EE8EE2 /* VoiceEntity.m in Sources */,
+				2E0E1F7A12A3D94F00EE8EE2 /* FlashCardLandscapeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RickysFlashCards_Prefix.pch;
+				INFOPLIST_FILE = "RickysFlashCards-Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "RickysFlashCards-Info.plist";
+				PRODUCT_NAME = RickysFlashCards;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RickysFlashCards_Prefix.pch;
+				INFOPLIST_FILE = "RickysFlashCards-Info.plist";
+				PRODUCT_NAME = RickysFlashCards;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "CFBundleVersion=1.1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "CFBundleVersion=1.1";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RickysFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RickysFlashCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

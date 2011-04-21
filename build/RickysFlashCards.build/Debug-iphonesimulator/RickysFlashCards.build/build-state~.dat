@@ -1,0 +1,980 @@
+TRickysFlashCards
+v7
+r0
+t312733079.885242
+cCheck dependencies
+cProcessInfoPlistFile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/Info.plist RickysFlashCards-Info.plist
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/MainWindow.xib
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.xib
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/noteCancel.png noteCancel.png
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.xib
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/VoicesListController.xib
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.xib
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/record.png record.png
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/playButton.png playButton.png
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.xib
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/database.sqlite database.sqlite
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/Chalkboard.png Chalkboard.png
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/RickyAndMark.png RickyAndMark.png
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/note.png note.png
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/redo.png redo.png
+cCpResource build/Debug-iphonesimulator/RickysFlashCards.app/whitePlayButton.png whitePlayButton.png
+cCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.xib
+cProcessPCH /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch.gch RickysFlashCards_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards.mom /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards.xcdatamodel
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/main.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RickysFlashCardsAppDelegate.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardSettingsViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/AboutViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoicesListController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/MATCDatabaseController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEditController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCUITableViewCell.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/ConfigurationController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCVoiceListUITableViewCell.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEntity.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardLandscapeViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards normal i386
+cGenerateDSYMFile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app.dSYM /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards
+cTouch /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004C5A5EA10000000000000703
+t1280990881
+s1795
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004C5A4CEC00000000000A9250
+t1280986348
+s692816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h
+c000000004C5A4CE5000000000001032E
+t1280986341
+s66350
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004C5A4E0B00000000001D2EC0
+t1280986635
+s1912512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004C5A4DED000000000000046B
+t1280986605
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdlib.h
+c000000004C5790920000000000002DF5
+t1280807058
+s11765
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/02-redo.png
+c00000000497224E000000000000001EA
+t1232217312
+s490
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Chalkboard.png
+c000000004CEDCAE5000000000001ED8A
+t1290652389
+s126346
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m
+c000000004CF30F1600000000000031CE
+t1290997526
+s12750
+i"VoicesListController.h"
+i"MATCDatabaseController.h"
+i"VoiceEditController.h"
+i<CoreData/CoreData.h>
+i"RickysFlashCardsAppDelegate.h"
+i"RFCVoiceListUITableViewCell.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.h
+c000000004CD47D8600000000000000F6
+t1288994182
+s246
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.m
+c000000004CD47D8600000000000005B1
+t1288994182
+s1457
+i"AboutViewController.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.xib
+c000000004CEE9A470000000000006233
+t1290705479
+s25139
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.h
+c000000004CE1C1970000000000000320
+t1289863575
+s800
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.m
+c000000004CE3E0890000000000000E95
+t1290002569
+s3733
+i"ConfigurationController.h"
+i"RickysFlashCardsAppDelegate.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.xib
+c000000004CEE953E0000000000008671
+t1290704190
+s34417
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.h
+c000000004CF3A1E0000000000000013B
+t1291035104
+s315
+i<UIKit/UIKit.h>
+i"FlashCardViewController.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.m
+c000000004CF3A6910000000000000608
+t1291036305
+s1544
+i"FlashCardLandscapeViewController.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.xib
+c000000004CF3AF53000000000000A1D7
+t1291038547
+s41431
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.h
+c000000004CF30F1F0000000000000132
+t1290997535
+s306
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m
+c000000004CF31A9E0000000000001411
+t1291000478
+s5137
+i"FlashCardSettingsViewController.h"
+i"AboutViewController.h"
+i"VoicesListController.h"
+i"ConfigurationController.h"
+i"FlashCardViewController.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib
+c000000004CF314740000000000003584
+t1290998900
+s13700
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.h
+c000000004CF3A42E000000000000074C
+t1291035694
+s1868
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m
+c000000004CF3B5FA0000000000002747
+t1291040250
+s10055
+i"FlashCardViewController.h"
+i"FlashCardLandscapeViewController.h"
+i"FlashCardSettingsViewController.h"
+i"RickysFlashCardsAppDelegate.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.xib
+c000000004CF1867F000000000000ABD8
+t1290897023
+s43992
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.h
+c000000004B84805A0000000000000324
+t1266974810
+s804
+i<Foundation/Foundation.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.m
+c000000004CD9D9EB00000000000012A6
+t1289345515
+s4774
+i"MATCDatabaseController.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.h
+c000000004CEC76B600000000000002E1
+t1290565302
+s737
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.m
+c000000004CF178BC0000000000000B01
+t1290893500
+s2817
+i"RFCUITableViewCell.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.h
+c000000004CEDB6B200000000000001A3
+t1290647218
+s419
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.m
+c000000004CEDCFD600000000000004D1
+t1290653654
+s1233
+i"RFCVoiceListUITableViewCell.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.h
+c000000004CF1779200000000000007B3
+t1290893202
+s1971
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m
+c000000004CF1794F0000000000004A0D
+t1290893647
+s18957
+i"RickysFlashCardsAppDelegate.h"
+i"FlashCardViewController.h"
+i"MATCDatabaseController.h"
+i<stdlib.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.h
+c000000004CDC77C20000000000000596
+t1289516994
+s1430
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreAudio/CoreAudioTypes.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m
+c000000004CF1783800000000000047D5
+t1290893368
+s18389
+i"VoiceEditController.h"
+i"MATCDatabaseController.h"
+i"RickysFlashCardsAppDelegate.h"
+i"RFCUITableViewCell.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.xib
+c000000004CDC403D0000000000007DFD
+t1289502781
+s32253
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h
+c000000004CF049F60000000000000134
+t1290815990
+s308
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m
+c000000004CF133510000000000000507
+t1290875729
+s1287
+i"VoiceEntity.h"
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/MainWindow.xib
+c000000004CEE937900000000000043F8
+t1290703737
+s17400
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickyAndMark.png
+c000000004CEE98DE0000000000045ABC
+t1290705118
+s285372
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards.xcdatamodel
+c000000004CF12D180000000000000088
+t1290874136
+s136
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards_Prefix.pch
+c000000004CF0499400000000000001CF
+t1290815892
+s463
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/VoicesListController.h
+c000000004CF30F0700000000000001CA
+t1290997511
+s458
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/VoicesListController.xib
+c000000004CF3AFD6000000000000449D
+t1291038678
+s17565
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app
+t1291040279
+s782
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app.dSYM
+t1291040279
+s102
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/02-redo.png
+t2
+s0
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/AboutViewController.nib
+t1291040276
+s3614
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/Chalkboard.png
+t1291040276
+s126346
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/ConfigurationController.nib
+t1291040276
+s5310
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/FlashCardLandscapeViewController.nib
+t1291040277
+s6064
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/FlashCardSettingsViewController.nib
+t1291040275
+s1533
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/FlashCardViewController.nib
+t1291040275
+s6826
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/Info.plist
+t1291040273
+s633
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/MainWindow.nib
+t1291040275
+s1540
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/PkgInfo
+t1291040273
+s8
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickyAndMark.png
+t1291040276
+s285372
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards
+t1291040279
+s133420
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards.mom
+t1291040278
+s4827
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/VoiceEditController.nib
+t1291040276
+s5375
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/VoicesListController.nib
+t1291040276
+s1533
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/database.sqlite
+t1291040276
+s28672
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/note.png
+t1291040276
+s292
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/noteCancel.png
+t1291040275
+s322
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/playButton.png
+t1291040276
+s341
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/record.png
+t1291040276
+s3721
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/redo.png
+t1291040276
+s535
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/whitePlayButton.png
+t1291040276
+s328
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/AboutViewController.o
+t1291040279
+s34636
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/ConfigurationController.o
+t1291040279
+s57464
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardLandscapeViewController.o
+t1291040279
+s37548
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardSettingsViewController.o
+t1291040279
+s56188
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardViewController.o
+t1291040279
+s100908
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/MATCDatabaseController.o
+t1291040279
+s26936
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCUITableViewCell.o
+t1291040279
+s46764
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCVoiceListUITableViewCell.o
+t1291040279
+s40684
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RickysFlashCards.LinkFileList
+c000000004CF3B6110000000000000898
+t1291040273
+s2200
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RickysFlashCardsAppDelegate.o
+t1291040279
+s96612
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEditController.o
+t1291040279
+s98616
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEntity.o
+t1291040279
+s14956
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoicesListController.o
+t1291040279
+s69220
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/main.o
+t1291040278
+s6328
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/database.sqlite
+c000000004CEC7E880000000000007000
+t1290567304
+s28672
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/main.m
+c000000004CD1DD460000000000000175
+t1288822086
+s373
+i<UIKit/UIKit.h>
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/note.png
+c000000004CEE9C180000000000000124
+t1290705944
+s292
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/noteCancel.png
+c00000000497225540000000000000142
+t1232217428
+s322
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/playButton.png
+c000000004CDC71380000000000000155
+t1289515320
+s341
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/record.png
+c000000004CDC052C0000000000000E89
+t1289487660
+s3721
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/redo.png
+c000000004CEE9E950000000000000217
+t1290706581
+s535
+
+N/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/whitePlayButton.png
+c000000004CEE9F670000000000000148
+t1290706791
+s328
+
+N/var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-cwwmlchgequhtbdnxdtlywiygbki/RickysFlashCards_Prefix.pch.gch
+t1290815970
+s16080688
+
+N/var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch.gch
+t1291040278
+s16080688
+
+NRickysFlashCards-Info.plist
+c000000004CD1DD46000000000000038D
+t1288822086
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312733073#312733073#0(0"0(0#1#0"8736667840#0"0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/AboutViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.151259
+e312733079.268461
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/AboutViewController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.m312733079#312733079#0(0"0(0#0#80"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.m8738540288#2264"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/AboutViewController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/ConfigurationController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.516090
+e312733079.686187
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/ConfigurationController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.m312733079#312733079#0(0"0(0#0#84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.m8744394400#2272"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/ConfigurationController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardLandscapeViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.690492
+e312733079.781315
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardLandscapeViewController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.m312733079#312733079#0(0"0(0#0#93"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.m8733465024#2290"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardLandscapeViewController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardSettingsViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.051958
+e312733079.151154
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardSettingsViewController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m: In function '-[FlashCardSettingsViewController done:]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: 'UIWindow' may not respond to '-delegate'
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: (Messages without a matching method signature
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: will be assumed to return 'id' and accept
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: '...' as arguments.)
+lSLF07#2@100"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m312733079#312733079#0(725"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m: In function '-[FlashCardSettingsViewController done:]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: 'UIWindow' may not respond to '-delegate'/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: (Messages without a matching method signature/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: will be assumed to return 'id' and accept/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m:67: warning: '...' as arguments.)2(22@41"'UIWindow' may not respond to '-delegate'312733079#150#148#0(6@92"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m312693278#67#0#67#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312733079#298#152#0(6@92"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m312693278#67#0#67#0#0"0(0#0#92"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m8728181568#2288"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardSettingsViewController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardViewController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733078.839774
+e312733079.152582
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardViewController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m: In function '-[FlashCardViewController initWithNibName:bundle:]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: 'FlashCardViewController' may not respond to '-_additionalInit'
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: (Messages without a matching method signature
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: will be assumed to return 'id' and accept
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: '...' as arguments.)
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m: At top level:
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:226: warning: incomplete implementation of class 'FlashCardViewController'
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:226: warning: method definition for '-_unhideAllButChalkboard' not found
+lSLF07#2@92"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m312733078#312733079#0(1135"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m: In function '-[FlashCardViewController initWithNibName:bundle:]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: 'FlashCardViewController' may not respond to '-_additionalInit'/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: (Messages without a matching method signature/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: will be assumed to return 'id' and accept/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:56: warning: '...' as arguments.)/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m: At top level:/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:226: warning: incomplete implementation of class 'FlashCardViewController'/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m:226: warning: method definition for '-_unhideAllButChalkboard' not found5(22@63"'FlashCardViewController' may not respond to '-_additionalInit'312733078#152#162#0(6@84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m312733050#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312733078#314#144#0(6@84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m312733050#56#0#56#0#0"0(23@13"At top level:312733079#717#100#0(6@84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m312733050#0#0#0#0#0"0(22@60"Incomplete implementation of class 'FlashCardViewController'312733079#817#160#0(6@84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m312733050#226#0#226#0#38"incomplete implementation of class '*'0(22@58"Method definition for '-_unhideAllButChalkboard' not found312733079#977#158#0(6@84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m312733050#226#0#226#0#35"method definition for '*' not found0(0#0#84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m8698447872#2272"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/FlashCardViewController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/MATCDatabaseController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.268570
+e312733079.355811
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/MATCDatabaseController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.m312733079#312733079#0(0"0(0#0#83"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.m8743805952#2270"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/MATCDatabaseController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/MATCDatabaseController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCUITableViewCell.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.391036
+e312733079.515988
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCUITableViewCell.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.m312733079#312733079#0(0"0(0#0#79"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.m8734354176#2262"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCUITableViewCell.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCUITableViewCell.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCVoiceListUITableViewCell.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.608544
+e312733079.690387
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCVoiceListUITableViewCell.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.m312733079#312733079#0(0"0(0#0#88"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.m8736408320#2280"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RFCVoiceListUITableViewCell.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RFCVoiceListUITableViewCell.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RickysFlashCardsAppDelegate.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733078.770570
+e312733079.051845
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RickysFlashCardsAppDelegate.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m: In function '-[RickysFlashCardsAppDelegate voiceTemplateDictionary]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m:397: warning: local declaration of 'managedObjectContext' hides instance variable
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m:407: warning: local declaration of 'managedObjectContext' hides instance variable
+lSLF07#2@96"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m312733078#312733079#0(502"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m: In function '-[RickysFlashCardsAppDelegate voiceTemplateDictionary]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m:397: warning: local declaration of 'managedObjectContext' hides instance variable/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m:407: warning: local declaration of 'managedObjectContext' hides instance variable2(22@67"Local declaration of 'managedObjectContext' hides instance variable312733078#160#171#0(6@88"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m312586447#397#0#397#0#0"0(22@67"Local declaration of 'managedObjectContext' hides instance variable312733078#331#171#0(6@88"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m312586447#407#0#407#0#0"0(0#0#88"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m8724456128#2280"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/RickysFlashCardsAppDelegate.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RickysFlashCardsAppDelegate.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEditController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.355909
+e312733079.608452
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEditController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m: In function '-[VoiceEditController fetchedTemplatesResultsController]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m:202: warning: class 'VoiceEditController' does not implement the 'NSFetchedResultsControllerDelegate' protocol
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m: In function '-[VoiceEditController alertView:clickedButtonAtIndex:]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m:381: warning: unused variable 'error'
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m: In function '-[VoiceEditController(Private) _recordForVoice:template:]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m:503: warning: class 'VoiceEditController' does not implement the 'AVAudioRecorderDelegate' protocol
+lSLF07#2@88"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m312733079#312733079#0(953"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m: In function '-[VoiceEditController fetchedTemplatesResultsController]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m:202: warning: class 'VoiceEditController' does not implement the 'NSFetchedResultsControllerDelegate' protocol/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m: In function '-[VoiceEditController alertView:clickedButtonAtIndex:]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m:381: warning: unused variable 'error'/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m: In function '-[VoiceEditController(Private) _recordForVoice:template:]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m:503: warning: class 'VoiceEditController' does not implement the 'AVAudioRecorderDelegate' protocol3(22@96"Class 'VoiceEditController' does not implement the 'NSFetchedResultsControllerDelegate' protocol312733079#154#192#0(6@80"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m312586168#202#0#202#0#45"class '*' does not implement the '*' protocol0(22@23"Unused variable 'error'312733079#498#119#0(6@80"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m312586168#381#0#381#0#19"unused variable '*'0(22@85"Class 'VoiceEditController' does not implement the 'AVAudioRecorderDelegate' protocol312733079#772#181#0(6@80"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m312586168#503#0#503#0#45"class '*' does not implement the '*' protocol0(0#0#80"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m8657419936#2264"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEditController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEntity.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.686283
+e312733079.758706
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEntity.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m:9:
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h:16: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h:16: warning: assign attribute (default) not appropriate for non-gc object property 'name'
+lSLF07#2@80"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m312733079#312733079#0(425"In file included from /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m:9:/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h:16: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h:16: warning: assign attribute (default) not appropriate for non-gc object property 'name'2(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed312733079#98#164#2(7@94"In file included from /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m312733079#18446744073709551615#0#0(6@72"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m312568529#9#0#9#0#0"0(13@153"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed in /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h312733079#18446744073709551615#0#0(6@72"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h312508790#16#0#16#0#0"0(6@72"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h312508790#16#0#16#0#0"0(22@76"Assign attribute (default) not appropriate for non-gc object property 'name'312733079#262#163#2(7@94"In file included from /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m312733079#18446744073709551615#0#0(6@72"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m312568529#9#0#9#0#0"0(13@152"Assign attribute (default) not appropriate for non-gc object property 'name' in /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h312733079#18446744073709551615#0#0(6@72"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h312508790#16#0#16#0#0"0(6@72"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.h312508790#16#0#16#0#0"0(0#0#72"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m8734375072#2248"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEntity.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoiceEntity.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoicesListController.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733079.152663
+e312733079.390929
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoicesListController.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m: In function '-[VoicesListController tableView:accessoryButtonTappedForRowWithIndexPath:]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m:255: warning: unused variable 'delegate'
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m: In function '-[VoicesListController fetchedResultsController]':
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m:344: warning: class 'VoicesListController' does not implement the 'NSFetchedResultsControllerDelegate' protocol
+lSLF07#2@92"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m312733079#312733079#0(650"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m: In function '-[VoicesListController tableView:accessoryButtonTappedForRowWithIndexPath:]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m:255: warning: unused variable 'delegate'/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m: In function '-[VoicesListController fetchedResultsController]':/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m:344: warning: class 'VoicesListController' does not implement the 'NSFetchedResultsControllerDelegate' protocol2(22@26"Unused variable 'delegate'312733079#177#126#0(6@84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m312690326#255#0#255#0#19"unused variable '*'0(22@97"Class 'VoicesListController' does not implement the 'NSFetchedResultsControllerDelegate' protocol312733079#453#197#0(6@84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m312690326#344#0#344#0#45"class '*' does not implement the '*' protocol0(0#0#84"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m8737065728#2269"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/../VoicesListController.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/VoicesListController.o0#
+
+CCompileC build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/main.o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733078.702580
+e312733078.770318
+r1
+xCompileC
+xbuild/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/main.o
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/main.m312733078#312733078#0(0"0(0#0#57"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/main.m8736221536#2226"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -include /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/main.m -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.xib
+s312733075.590195
+e312733076.097709
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.xib
+lSLF07#2@42"CompileXIB Classes/AboutViewController.xib312733075#312733076#0(0"0(0#0#82"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.xib8702409984#641"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/AboutViewController.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/AboutViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.xib
+s312733076.181224
+e312733076.819353
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.xib
+lSLF07#2@46"CompileXIB Classes/ConfigurationController.xib312733076#312733076#0(0"0(0#0#86"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.xib8742704480#649"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/ConfigurationController.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/ConfigurationController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.xib
+s312733076.746817
+e312733077.258024
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.xib
+lSLF07#2@55"CompileXIB Classes/FlashCardLandscapeViewController.xib312733076#312733077#0(0"0(0#0#95"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.xib8735447328#667"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/FlashCardLandscapeViewController.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardLandscapeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib
+s312733075.325764
+e312733075.768999
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Table View' but 'view' is no longer defined on FlashCardsSettingsViewController.
+lSLF07#2@54"CompileXIB Classes/FlashCardSettingsViewController.xib312733075#312733075#0(283"/* com.apple.ibtool.document.warnings *//Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'Table View' but 'view' is no longer defined on FlashCardsSettingsViewController.1(22@133"The 'view' outlet of 'File's Owner' is connected to 'Table View' but 'view' is no longer defined on FlashCardsSettingsViewController.312733075#18446744073709551615#0#0(6@94"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib312691700#18446744073709551615#0#18446744073709551615#0#0"0(0#0#94"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib8734508608#665"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/FlashCardSettingsViewController.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardSettingsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.xib
+s312733073.893140
+e312733075.589965
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.xib
+lSLF07#2@46"CompileXIB Classes/FlashCardViewController.xib312733073#312733075#0(0"0(0#0#86"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.xib8742314912#649"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/FlashCardViewController.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/FlashCardViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.xib
+s312733076.097804
+e312733076.732749
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.xib
+lSLF07#2@42"CompileXIB Classes/VoiceEditController.xib312733076#312733076#0(0"0(0#0#82"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.xib8743891328#641"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/VoiceEditController.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Classes/VoiceEditController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/MainWindow.xib
+s312733073.892443
+e312733075.323584
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312733073#312733075#0(0"0(0#0#65"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/MainWindow.xib8742706848#615"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/MainWindow.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/VoicesListController.xib
+s312733075.769096
+e312733076.174827
+r1
+xCompileXIB
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/VoicesListController.xib
+lSLF07#2@35"CompileXIB VoicesListController.xib312733075#312733076#0(0"0(0#0#75"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/VoicesListController.xib8745056000#635"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/VoicesListController.nib /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/VoicesListController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/02-redo.png 02-redo.png
+r0
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/Chalkboard.png Chalkboard.png
+s312733076.734259
+e312733076.751170
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/Chalkboard.png
+xChalkboard.png
+lSLF07#2@19"Copy Chalkboard.png312733076#312733076#0(0"0(0#0#65"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Chalkboard.png8744537888#503"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/Chalkboard.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/RickyAndMark.png RickyAndMark.png
+s312733076.735130
+e312733076.751277
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/RickyAndMark.png
+xRickyAndMark.png
+lSLF07#2@21"Copy RickyAndMark.png312733076#312733076#0(0"0(0#0#67"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickyAndMark.png8744360928#505"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickyAndMark.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/database.sqlite database.sqlite
+s312733076.732839
+e312733076.751049
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/database.sqlite
+xdatabase.sqlite
+lSLF07#2@20"Copy database.sqlite312733076#312733076#0(0"0(0#0#66"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/database.sqlite8744830688#504"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/database.sqlite /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/note.png note.png
+s312733076.740320
+e312733076.751380
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/note.png
+xnote.png
+lSLF07#2@13"Copy note.png312733076#312733076#0(0"0(0#0#59"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/note.png8743718496#497"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/note.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/noteCancel.png noteCancel.png
+s312733075.323682
+e312733075.344528
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/noteCancel.png
+xnoteCancel.png
+lSLF07#2@19"Copy noteCancel.png312733075#312733075#0(0"0(0#0#65"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/noteCancel.png8656095200#503"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/noteCancel.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/playButton.png playButton.png
+s312733076.176559
+e312733076.186456
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/playButton.png
+xplayButton.png
+lSLF07#2@19"Copy playButton.png312733076#312733076#0(0"0(0#0#65"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/playButton.png8743371616#503"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/playButton.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/record.png record.png
+s312733076.174916
+e312733076.182071
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/record.png
+xrecord.png
+lSLF07#2@15"Copy record.png312733076#312733076#0(0"0(0#0#61"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/record.png8743641632#499"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/record.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/redo.png redo.png
+s312733076.741245
+e312733076.751483
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/redo.png
+xredo.png
+lSLF07#2@13"Copy redo.png312733076#312733076#0(0"0(0#0#59"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/redo.png8743395264#497"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/redo.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CCpResource build/Debug-iphonesimulator/RickysFlashCards.app/whitePlayButton.png whitePlayButton.png
+s312733076.745914
+e312733076.760079
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/RickysFlashCards.app/whitePlayButton.png
+xwhitePlayButton.png
+lSLF07#2@24"Copy whitePlayButton.png312733076#312733076#0(0"0(0#0#70"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/whitePlayButton.png8742622112#508"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/whitePlayButton.png /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
+CDataModelCompile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards.mom /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards.xcdatamodel
+s312733078.701583
+e312733078.839674
+r1
+xDataModelCompile
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards.mom
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards.xcdatamodel
+lSLF07#2@87"Compile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards.xcdatamodel312733078#312733078#0(0"0(0#0#79"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards.xcdatamodel8742257248#447"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards.xcdatamodel /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards.mom0#
+
+CGenerateDSYMFile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app.dSYM /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards
+s312733079.836305
+e312733079.879161
+r1
+xGenerateDSYMFile
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app.dSYM
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards
+lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/RickysFlashCards.app.dSYM build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards312733079#312733079#0(0"0(0#0#116"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards8740385888#446"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app.dSYM0#
+
+CLd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards normal i386
+s312733079.781574
+e312733079.836207
+r1
+xLd
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards
+xnormal
+xi386
+lSLF07#2@121"Link /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards312733079#312733079#0(0"0(0#0#0"8734128672#1070"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -filelist /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/Objects-normal/i386/RickysFlashCards.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreAudio -framework AVFoundation -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/RickysFlashCards0#
+
+CProcessInfoPlistFile /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/Info.plist RickysFlashCards-Info.plist
+s312733073.886427
+e312733073.892354
+r1
+xProcessInfoPlistFile
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/Info.plist
+xRickysFlashCards-Info.plist
+lSLF07#2@35"Process RickysFlashCards-Info.plist312733073#312733073#0(0"0(0#0#78"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards-Info.plist8744403552#542"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RickysFlashCards-Info.plist -genpkginfo /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app/Info.plist0#
+
+CProcessPCH /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-cwwmlchgequhtbdnxdtlywiygbki/RickysFlashCards_Prefix.pch.gch RickysFlashCards_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312508769.526367
+e312508770.427047
+r1
+xProcessPCH
+x/var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-cwwmlchgequhtbdnxdtlywiygbki/RickysFlashCards_Prefix.pch.gch
+xRickysFlashCards_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile RickysFlashCards_Prefix.pch312508769#312508770#0(0"0(0#0#78"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards_Prefix.pch8659046112#2097"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards_Prefix.pch -o /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-cwwmlchgequhtbdnxdtlywiygbki/RickysFlashCards_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch.gch RickysFlashCards_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312733077.258304
+e312733078.701454
+r1
+xProcessPCH
+x/var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch.gch
+xRickysFlashCards_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile RickysFlashCards_Prefix.pch312733077#312733078#0(0"0(0#0#78"/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards_Prefix.pch8744847552#2097"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-generated-files.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-own-target-headers.hmap -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-all-target-headers.hmap -iquote /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/RickysFlashCards-project-headers.hmap -F/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/include -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources/i386 -I/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/RickysFlashCards.build/Debug-iphonesimulator/RickysFlashCards.build/DerivedSources -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/RickysFlashCards_Prefix.pch -o /var/folders/wT/wTZGWCanEI0U6iKF7goBnk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RickysFlashCards_Prefix-eiwoaiifpqywiucflugzbynendco/RickysFlashCards_Prefix.pch.gch0#
+
+CTouch /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app
+s312733079.879253
+e312733079.885193
+r1
+xTouch
+x/Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app
+lSLF07#2@105"Touch /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app312733079#312733079#0(0"0(0#0#0"8738406144#311"    cd /Users/pj/Documents/iPhone/MyApps/RickysFlashCards    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pj/Documents/iPhone/MyApps/RickysFlashCards/build/Debug-iphonesimulator/RickysFlashCards.app0#
+
