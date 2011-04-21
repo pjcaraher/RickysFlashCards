@@ -11,8 +11,6 @@
 
 @implementation VoiceEntity
 
-@dynamic name;
-
 - (BOOL)validateName:(NSString*)value error:(NSError **)saveError
 {
 	BOOL	okToSave = TRUE;

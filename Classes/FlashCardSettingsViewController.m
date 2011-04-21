@@ -64,7 +64,7 @@
 
 - (IBAction) done:(id)sender
 {
-	FlashCardViewController	*controller = [[[UIApplication sharedApplication] keyWindow] delegate];
+	FlashCardViewController	*controller = [[[UIApplication sharedApplication] keyWindow] performSelector:@selector(delegate)];
 	
 	// When the done button is clicked, remove the Settings Navigation Controller.
 	[[[self navigationController] view] removeFromSuperview];

@@ -188,7 +188,7 @@
 	NSString	*name = nil;
 	NSNumber	*interval;
 	
-	while (name = [enumerator nextObject]) {
+	while (nil != (name = [enumerator nextObject])) {
 		interval = [[self voiceTemplateDictionary] objectForKey:name];
 		if (nil != interval) {
 			// totalInterval += [(NSNumber *)[template valueForKey:@"duration"] floatValue];
@@ -209,7 +209,7 @@
 	NSError	*error;	
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	
-	while (name = [enumerator nextObject]) {
+	while (nil != (name = [enumerator nextObject])) {
 		NSURL *soundFileURL = [self recordingFileURLForVoiceName:[self currentVoiceName] templateName:name];
 		AVAudioPlayer * avPlayer = nil;
 		
@@ -401,9 +401,9 @@
 		NSFetchedResultsController	*resultsController = nil;		
 		// Create the fetch request for the entity.
 		NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-		NSManagedObjectContext *managedObjectContext = [[MATCDatabaseController sharedDatabaseController] managedObjectContext];
+		NSManagedObjectContext *tmpManagedObjectContext = [[MATCDatabaseController sharedDatabaseController] managedObjectContext];
 		// Edit the entity name as appropriate.
-		NSEntityDescription *entity = [NSEntityDescription entityForName:@"VoiceTemplate" inManagedObjectContext:managedObjectContext];
+		NSEntityDescription *entity = [NSEntityDescription entityForName:@"VoiceTemplate" inManagedObjectContext:tmpManagedObjectContext];
 		NSError *error = nil;
 		NSEnumerator	*enumerator;
 		NSManagedObject	*template;
@@ -413,7 +413,7 @@
 		
 		// Edit the section name key path and cache name if appropriate.
 		// nil for section name key path means "no sections".
-		resultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:managedObjectContext sectionNameKeyPath:nil cacheName:@"Templates"];
+		resultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:tmpManagedObjectContext sectionNameKeyPath:nil cacheName:@"Templates"];
 		
 		if (![resultsController performFetch:&error]) {
 			/*
@@ -426,7 +426,7 @@
 		
 		voiceTemplateDictionary = [[[NSMutableDictionary alloc] initWithCapacity:[[resultsController fetchedObjects] count]] retain];
 		enumerator = [[resultsController fetchedObjects] objectEnumerator];
-		while (template = (NSManagedObject*)[enumerator nextObject]) {
+		while (nil != (template = (NSManagedObject*)[enumerator nextObject])) {
 			NSLog(@"filename for template is %@", [template valueForKey:@"filename"]);
 			[(NSMutableDictionary*)voiceTemplateDictionary setObject:[NSNumber numberWithDouble:[[template valueForKey:@"duration"] doubleValue]] forKey:[template valueForKey:@"filename"]];
 		}

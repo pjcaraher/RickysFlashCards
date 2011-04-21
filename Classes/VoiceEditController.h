@@ -10,7 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <CoreAudio/CoreAudioTypes.h>
 
-@interface VoiceEditController : UITableViewController <UITextFieldDelegate,UIAlertViewDelegate,AVAudioRecorderDelegate> {
+@interface VoiceEditController : UITableViewController <UITextFieldDelegate,UIAlertViewDelegate,AVAudioRecorderDelegate,NSFetchedResultsControllerDelegate> {
 	NSManagedObject	*voice;
 	IBOutlet UIView	*editNameView;
 	IBOutlet UILabel *errorMessage;

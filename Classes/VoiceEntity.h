@@ -13,6 +13,4 @@
 
 }
 
-@property (nonatomic) NSString	*name;
-
 @end

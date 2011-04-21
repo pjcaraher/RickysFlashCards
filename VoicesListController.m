@@ -334,7 +334,6 @@
 		// Edit the section name key path and cache name if appropriate.
 		// nil for section name key path means "no sections".
 		NSFetchedResultsController *aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:managedObjectContext sectionNameKeyPath:nil cacheName:@"Root"];
-		aFetchedResultsController.delegate = self;
 		self.fetchedResultsController = aFetchedResultsController;
 		
 		[aFetchedResultsController release];
